@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prykazka</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #070f18;
+        --panel: #0f1a2a;
+        --text: #f5ecd8;
+        --muted: #b9a892;
+        --accent: #eeb61b;
+        --border: #2c3a4c;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.6;
+      }
+
+      main {
+        max-width: 760px;
+        margin: 0 auto;
+        padding: 56px 20px 72px;
+      }
+
+      .card {
+        background: var(--panel);
+        border: 1px solid var(--border);
+        border-radius: 20px;
+        padding: 28px;
+      }
+
+      h1,
+      h2 {
+        margin: 0 0 12px;
+      }
+
+      p {
+        margin: 0 0 16px;
+        color: var(--muted);
+      }
+
+      .actions {
+        display: flex;
+        gap: 12px;
+        flex-wrap: wrap;
+        margin-top: 24px;
+      }
+
+      a.button {
+        display: inline-block;
+        padding: 12px 16px;
+        border-radius: 12px;
+        background: var(--accent);
+        color: #1a1108;
+        font-weight: 700;
+        text-decoration: none;
+      }
+
+      a.secondary {
+        background: transparent;
+        color: var(--text);
+        border: 1px solid var(--border);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="card">
+        <h1>Prykazka</h1>
+        <p>
+          Prykazka — гра на відгадування українських прислів'їв і приказок за
+          ребус-картинками. Грайте в компанії або наодинці, без облікового запису.
+        </p>
+        <p>
+          Вечірковий режим — для друзів і родини з передачею телефона між
+          командами. Соло — прогрес, обране, досягнення та нагадування.
+        </p>
+        <div class="actions">
+          <a class="button" href="./support.html">Підтримка</a>
+          <a class="button secondary" href="./privacy.html">Конфіденційність</a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
